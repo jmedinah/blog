@@ -1,0 +1,13 @@
+<div *ngIf="comments$ | async as comments">
+  <div class="content-comment" *ngFor="let comment of comments">
+    <h4>{{comment.name}}</h4>
+
+    <div style="text-align: justify">
+      {{comment.body}}
+    </div>
+    <div style="display: flex;justify-content: flex-end;margin-top: 5px">
+      {{comment.email}}
+    </div>
+
+  </div>
+</div>

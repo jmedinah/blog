@@ -1,0 +1,9 @@
+.content {
+  flex-direction: row;
+  width: 70%;
+  background: #b7b7b7;
+  margin: auto;
+  box-shadow: 1px 1px 3px 2px #4c4c4c;
+  border-radius: 15px;
+  justify-content: center;
+}
