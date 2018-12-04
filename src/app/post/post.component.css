@@ -1,7 +1,12 @@
-.post-content {
-  display: flex;
-  background: #dedede;
-  padding: 10px;
-  border-radius: 10px;
+.post-card {
   margin: 5px;
+}
+
+.mat-card-header .mat-card-title {
+  margin-bottom: 5px;
+}
+
+.content {
+  margin: 10px auto;
+  text-align: justify;
 }
